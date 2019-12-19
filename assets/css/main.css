@@ -9,6 +9,7 @@ body {
   background: #FBF7EC !important;
   font-weight: 500;
   font-family: 'Karma', sans-serif, arial, serif !important;
+  color: #235789;
 }
 
 .resume {
@@ -103,8 +104,9 @@ body {
     width: 100%;
     opacity: 0.2;
 }
-.about-txt{
+.projects-txt{
   padding-top: 25px;
+  height: 53%;
 }
 
 i.introscroll {
@@ -117,6 +119,7 @@ i.introscroll {
 i.introscroll:hover {
   color: #006494;
 }
+
 i.social {
   color: #fff;
   background: #ED1C24;
@@ -160,6 +163,34 @@ i.social:hover {
   align-content: center;
 }
 
+.footer-wrapper {
+  margin-top: 20px;  
+  margin-bottom: -10px;
+  text-align: center;
+  font-size: 14px;
+  color: #235789;
+}
+.footer-wrapper a {
+  color:#ED1C24;
+  font-size: 25px;
+}
+.social-icons {
+  margin: 1em 0 2em;
+}
+.social-icons a {
+  padding: 4px 8px;
+}
+.social-icons a:hover {
+  color: #006494;
+}
+
+.pcard {
+  background-color: #ED1C24;
+  border-radius: 20px;
+  height: 50px;
+  color: #FBF7EC;
+}
+
 @media screen and (min-width: 800px) {
   /*Applies to screen more than 1000 or the md thingies, above works for sm*/
   .pitema:nth-child(2),
@@ -185,25 +216,4 @@ i.social:hover {
 }
 
 @media screen and (min-width: 550px) {
-}
-
-.footer-wrapper {
-  margin-top: 20px;  
-  margin-bottom: -10px;
-  text-align: center;
-  font-size: 14px;
-  color: #235789;
-}
-.footer-wrapper a {
-  color:#ED1C24;
-  font-size: 25px;
-}
-.social-icons {
-  margin: 1em 0 2em;
-}
-.social-icons a {
-  padding: 4px 8px;
-}
-.social-icons a:hover {
-  color: #006494;
 }
