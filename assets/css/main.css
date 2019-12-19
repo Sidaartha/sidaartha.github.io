@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css?family=Karma:500,500i,700');
+
+html,
+body {
+  max-width: 100%;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: visible;
+  background: #FBF7EC !important;
+  font-weight: 500;
+  font-family: 'Karma', sans-serif, arial, serif !important;
+}
+
+.resume {
+  text-align: right;
+  padding: 20px;
+}
+
+.resume-txt {
+  border-style: solid;
+  border-color: #ED1C24;
+  border-width: 2px;
+  padding-right: 8px;
+  padding-left: 8px;
+  border-radius: 8px;
+  color: #ED1C24;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.resume-txt:hover { 
+  color: #006494;
+  border-color: #006494;
+  text-decoration: none !important;
+}
+
+.bannertext {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  z-index: 100;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  min-width: 320px;
+}
+#logobanner {
+  width: 180px;
+  height: auto;
+  display: inline-block;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+  cursor: pointer;
+  border-radius: 50%;
+  padding-bottom: 10%;
+}
+.headline {
+  margin-top: 0px !important;
+  font-size: 4em;
+  color: #235789;
+  font-weight: 500;
+  font-family: 'Karma', sans-serif;
+  position: relative;
+}
+.subline {
+  color: #006494;
+  font-size: 1.2em;
+  padding: 15px;
+  /**/
+}
+
+.mainbody {
+  z-index: 99;
+  clear: both;
+  display: block;
+  margin-top: 5%;
+}
+
+#introbanner {
+  height: 100%;
+}
+
+.blocker {
+  margin-bottom: 4%;
+}
+.major {
+  text-transform: lowercase;
+  font-size: 2em !important;
+  font-weight: 500 !important;
+  color: #ED1C24;
+}
+.minor {
+  color: #235789;
+  font-size: 1.2em !important;
+}
+.break { 
+    background: #235789;
+    height: 1px;
+    width: 100%;
+    opacity: 0.2;
+}
+.about-txt{
+  padding-top: 25px;
+}
+
+i.introscroll {
+  font-size: 3em !important;
+  margin-top: 15%;
+  opacity: 0.8;
+  cursor: pointer;
+  color: #ED1C24;
+}
+i.introscroll:hover {
+  color: #006494;
+}
+i.social {
+  color: #fff;
+  background: #ED1C24;
+  padding: 10px;
+  width: 32px !important;
+  border-radius: 50%;
+}
+i.social:hover {
+  color: #fff;
+  background: #006494;
+}
+
+.footer {
+  margin-bottom: 0px;
+  margin-top: 10%;
+}
+
+.navbar-default {
+  background-color: #FBF7EC !important;
+}
+.centerf {
+  display: block;
+  text-align: center;
+  position: absolute;
+  margin-top: 22px;
+  font-size: 1.2em;
+}
+.logos {
+  text-align: center;
+}
+.hidden {
+  display: none;
+}
+
+.pitem:nth-child(2),
+.minor.col-md-3:nth-child(3) {
+  border: 0;
+}
+
+.socialset {
+  align-content: center;
+}
+
+@media screen and (min-width: 800px) {
+  /*Applies to screen more than 1000 or the md thingies, above works for sm*/
+  .pitema:nth-child(2),
+  .minor.col-md-3:nth-child(3) {
+    border: 1px solid #ddd;
+    border-top: 0;
+    border-bottom: 0;
+  }
+  .minor {
+    font-size: 1.2em;
+  }
+  .pitem {
+    margin-top: 0.2%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .logos {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 700px) {
+}
+
+@media screen and (min-width: 550px) {
+}
+
+.footer-wrapper {
+  margin-top: 20px;  
+  margin-bottom: -10px;
+  text-align: center;
+  font-size: 14px;
+  color: #235789;
+}
+.footer-wrapper a {
+  color:#ED1C24;
+  font-size: 25px;
+}
+.social-icons {
+  margin: 1em 0 2em;
+}
+.social-icons a {
+  padding: 4px 8px;
+}
+.social-icons a:hover {
+  color: #006494;
+}
