@@ -35,6 +35,9 @@ body {
   text-decoration: none !important;
 }
 
+a:hover {
+  text-decoration: none !important;
+} 
 .bannertext {
   display: block;
   margin: 0 auto;
@@ -90,7 +93,7 @@ body {
 }
 .major {
   text-transform: lowercase;
-  font-size: 2em !important;
+  font-size: 2.4em !important;
   font-weight: 500 !important;
   color: #ED1C24;
 }
@@ -104,9 +107,31 @@ body {
     width: 100%;
     opacity: 0.2;
 }
-.projects-txt{
-  padding-top: 25px;
-  height: 53%;
+
+.pitem {
+  margin-top: 5%;
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 6%;
+  zoom: 1;
+  letter-spacing: normal;
+  word-spacing: normal;
+  vertical-align: top;
+  text-rendering: auto;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.proname {
+  margin-top: 20px;
+  font-size: 1.3em;
+  font-weight: 700;
+  display: block;
+  color: #ED1C24;
+}
+
+.proname:hover {
+  color: #235789;
 }
 
 i.introscroll {
@@ -190,6 +215,27 @@ i.social:hover {
   height: 50px;
   color: #FBF7EC;
 }
+.portfolioimage {
+  opacity: 0.9;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 50%;
+  max-width: 80%;
+  display: inline-block;
+  position: relative;
+  margin-top: 10%;
+}
+.procat {
+  margin-top: 20px;
+  display: block;
+  font-size: 1em;
+  font-weight: 500;
+  text-align: justify;
+  color: #006494;
+}
+.prow {
+  margin-top: 10px;
+}
 
 @media screen and (min-width: 800px) {
   /*Applies to screen more than 1000 or the md thingies, above works for sm*/
@@ -198,6 +244,9 @@ i.social:hover {
     border: 1px solid #ddd;
     border-top: 0;
     border-bottom: 0;
+  }
+  .portfolioimage {
+    max-width: 72%;
   }
   .minor {
     font-size: 1.2em;
@@ -209,6 +258,31 @@ i.social:hover {
   }
   .logos {
     text-align: center;
+  }
+  .proname {
+    margin-top: 20px;
+    font-size: 1.3em;
+    font-weight: 700;
+    color: #ED1C24;
+  }
+  .proname:hover {
+    color: #235789;
+  }
+  .prometa {
+    color: #13293D;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.7em;
+    display: inline-block;
+  }
+  .procat {
+    margin-top: 16px;
+    font-size: 1em;
+    font-weight: 500;
+    width: 85%;
+    text-align: left;
+    margin-left: 7.5%;
+    color: #006494;
   }
 }
 
