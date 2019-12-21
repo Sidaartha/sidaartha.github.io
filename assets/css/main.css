@@ -134,6 +134,14 @@ a:hover {
   color: #235789;
 }
 
+.prometa {
+    color: #13293D;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.7em;
+    display: inline-block;
+  }
+
 i.introscroll {
   font-size: 3em !important;
   margin-top: 15%;
