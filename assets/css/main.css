@@ -30,8 +30,8 @@ body {
 }
 
 .resume-txt:hover { 
-  color: #006494;
-  border-color: #006494;
+  color: #1B4079;
+  border-color: #1B4079;
   text-decoration: none !important;
 }
 
@@ -131,11 +131,11 @@ a:hover {
 }
 
 .proname:hover {
-  color: #235789;
+  color: #1B4079;
 }
 
 .prometa {
-    color: #13293D;
+    color: #1B4079;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 0.7em;
@@ -150,19 +150,7 @@ i.introscroll {
   color: #ED1C24;
 }
 i.introscroll:hover {
-  color: #006494;
-}
-
-i.social {
-  color: #fff;
-  background: #ED1C24;
-  padding: 10px;
-  width: 32px !important;
-  border-radius: 50%;
-}
-i.social:hover {
-  color: #fff;
-  background: #006494;
+  color: #1B4079;
 }
 
 .footer {
@@ -214,7 +202,7 @@ i.social:hover {
   padding: 4px 8px;
 }
 .social-icons a:hover {
-  color: #006494;
+  color: #1B4079;
 }
 
 .pcard {
@@ -282,10 +270,10 @@ i.social:hover {
     color: #ED1C24;
   }
   .proname:hover {
-    color: #235789;
+    color: #1B4079;
   }
   .prometa {
-    color: #13293D;
+    color: #1B4079;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 0.7em;
